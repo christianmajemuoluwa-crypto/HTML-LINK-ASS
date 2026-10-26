@@ -1,0 +1,40 @@
+<form action="/submit-registration">
+<h2>Create An Account</h2>
+<div>
+    <label for="username">USERNAME</label>
+    <input type="text" name="username" id="username"required placeholder="Enter your username">
+</div><br>
+
+
+
+<div>
+    <label for="email">EMAIL ADDRESS</label>
+    <input type="email" name="email" id="email"required placeholder="name@example.com">
+</div><br>
+
+
+
+<div>
+    <label for="password">PASSWORD</label>
+    <input type="password" name="password" id="password"required placeholder="At least 8 characters">
+</div><br>
+
+
+<div>
+    <label for="role">Primary Role</label>
+    <select name="role" id="role">
+    <option value="developer">Developer</option>
+    <option value="designer">Designer</option>
+    <option value="student">Student</option>
+    <option value="others">Others</option>
+    </select>
+</div><br>
+
+<div>
+<input type="checkbox" id="terms" name="terms" required>
+<label for="terms">I agree to the terms and conditions</label>
+</div><br>
+
+
+<button type="submit">Sign Up</button>
+</form>
